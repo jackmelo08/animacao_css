@@ -1,0 +1,58 @@
+div{
+   display: flex;
+   align-items: center;
+   justify-content:center ;
+   height: 100vh;
+
+}
+ 
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    animation-duration: 4s;
+    animation-name: mover;
+    position: relative;
+    
+}
+
+.caixa:hover {
+    animation: mover 4s ease;
+ 
+ }
+
+
+@keyframes mover{
+
+    0%{
+        bottom: 0;
+        right: 0;
+        width: 200px;
+        height: 200px;  
+       
+
+    }
+
+    50%{
+        bottom: 46%;
+        right: 44%;
+        width: 70px;
+        height: 70px;
+    }
+
+
+    
+
+
+
+    }  
+
+
