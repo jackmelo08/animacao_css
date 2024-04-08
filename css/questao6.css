@@ -1,0 +1,61 @@
+div{
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    animation: mover 8s infinite;
+
+
+}
+ 
+
+body{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+@keyframes mover{
+
+    0%{
+        background-color: brown;
+        transform: rotate(45deg);
+        
+    }
+
+    10%{
+         background-color: red;
+         transform: rotate(90deg);
+    }
+
+    20%{
+        background-color: green;
+        transform: rotate(135deg);
+    }
+
+    30%{
+        background-color: blanchedalmond;
+        transform: rotate(225deg);
+}
+
+    40%{
+            background-color: red;
+            transform: rotate(315deg);
+    }
+
+    50%{
+        background-color:blue;
+        transform: rotate(360deg);
+
+
+
+    }  
+
+
+
+
+
+}

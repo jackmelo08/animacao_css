@@ -1,0 +1,44 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    border: solid;
+    animation: pulsar 2s infinite;
+ }
+    
+body{
+
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes pulsar{
+
+    0%{
+        height: 200px;
+        width: 200px;
+        transform: rotate(0deg);
+
+    }
+    50%{
+        height: 300px;
+        width: 300px;
+        transform: rotate(360deg);
+
+    }
+    100%{
+        height: 250px;
+        width: 250px;
+        transform: rotate(360deg);
+
+
+    }
+
+
+    
+
+
+
+    }  

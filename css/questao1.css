@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: solid 2px black;
+}
