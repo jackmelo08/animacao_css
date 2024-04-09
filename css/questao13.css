@@ -1,0 +1,56 @@
+a{
+    width: 50px;
+    height: 20px;
+    background-color: bisque;
+    text-decoration: none;
+    color: brown;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.quadrado1{
+    height:200px;
+    width: 200px;
+    background-color: blueviolet;
+    margin: 2px;
+    animation: mover 4s infinite;
+    position: relative;
+    
+
+}
+.quadrado2{
+    height:200px;
+    width: 200px;
+    background-color: blue;
+    margin: 2px;
+    animation: mover 4s infinite 2s;
+    position: relative;
+   
+    
+   
+}
+.quadrado3{
+    height:200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 2px;
+    animation: mover 4s infinite 4s;
+    position: relative;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@keyframes mover{
+    0%{
+        top: 0;
+
+    }
+    100%{
+        top: -30%;
+    }
+}
